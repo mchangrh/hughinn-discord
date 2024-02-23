@@ -10,7 +10,7 @@ async function getVhStats() {
   let result = await tiny.get({url})
     .catch((err) => console.log('error', err))
   const status = result.body.online ? '🟢' : '🔴'
-  return `${status} | ${result.body.players} Online`
+  return `Valheim: ${status} | ${result.body.players} Online`
 }
 
 module.exports = {
