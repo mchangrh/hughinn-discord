@@ -1,0 +1,8 @@
+{
+	"dependencies": {
+		"discord.js": "^12.5.3",
+		"dotenv": "^10.0.0",
+		"node-cron": "^3.0.3",
+		"tiny-json-http": "^7.5.1"
+	}
+}
